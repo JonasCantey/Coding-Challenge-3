@@ -7,3 +7,12 @@ prices.shift()                          //Removes the first item in the array
 
 console.log(prices)
 
+//Task 2
+console.log("Task 2")
+
+let orders = [14, 17, 20, 25, 30];       //Declaring an array of order
+orders[2] += 5;                          //Adding 5 to the third number in the array
+let sum = orders.reduce ((acc, score) => acc + score, 0);   //Adding up all the orders
+
+console.log(orders);
+console.log("Total order amount:", sum);
