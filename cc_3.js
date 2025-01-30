@@ -58,4 +58,16 @@ let employee = {                        //Declaring employee object
     }
     console.log(feedback);
 
+    //Task 5
+    console.log("Task 5")
 
+    let inventory = {                   //Declaring object inventory
+        itemName: "Brown Lounging Chair",
+        stockCount: 21,
+        price: 49.99,
+    };
+
+    let stockValue = inventory.stockCount * inventory.price;    //Multiply the stockCount by the price
+
+    console.log(inventory);
+    console.log(stockValue);
