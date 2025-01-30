@@ -70,4 +70,4 @@ let employee = {                        //Declaring employee object
     let stockValue = inventory.stockCount * inventory.price;    //Multiply the stockCount by the price
 
     console.log(inventory);
-    console.log(stockValue);
+    console.log("Total value of stock:", stockValue);
