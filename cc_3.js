@@ -16,3 +16,18 @@ let sum = orders.reduce ((acc, score) => acc + score, 0);   //Adding up all the 
 
 console.log(orders);
 console.log("Total order amount:", sum);
+
+//Task 3
+console.log("Task 3");
+
+let employee = {                        //Declaring employee object
+    name: "John Money",
+    role: "Finance Director",
+    performanceScore: 84,
+    isActive: true,
+};
+    employee.performanceScore = 94;      //Updating the performance score
+    employee.isEligible = true;          //Adding isEligible property
+
+    console.log(employee);
+
