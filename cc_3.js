@@ -31,3 +31,31 @@ let employee = {                        //Declaring employee object
 
     console.log(employee);
 
+    //Task 4
+    console.log("Task 4");
+
+    let feedback = [                    //Declaring the feedback array
+        {
+            customerName: "Randy Marsh",
+            feedbackText: "This place rocks!",
+            rating: 9.2,
+        },
+        {
+            customerName: "Eric Cartman",
+            feedbackText: "This place sucks!",
+            rating: 2,
+        },
+        {
+            customerName: "P.C. Principal",
+            feedbackText: "This place is ok",
+            rating: 5,
+        }
+    ]
+    feedback.push = {                   //Pushed new customer object to array
+        customerName:"Kyle Broflovski",
+        feedbackText:"My favorite place!",
+        rating: 10,
+    }
+    console.log(feedback);
+
+
