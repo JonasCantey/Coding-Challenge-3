@@ -15,7 +15,7 @@ orders[2] += 5;                          //Adding 5 to the third number in the a
 let sum = orders.reduce ((acc, score) => acc + score, 0);   //Adding up all the orders
 
 console.log(orders);
-console.log("Total order amount:", sum);
+console.log("Total order amount: $", sum);
 
 //Task 3
 console.log("Task 3");
@@ -67,7 +67,7 @@ let employee = {                        //Declaring employee object
         price: 49.99,
     };
 
-    let stockValue = inventory.stockCount * inventory.price;    //Multiply the stockCount by the price
-
+    let calculateStockValue = () => inventory.stockCount * inventory.price; //Created a method to calculate value of stock
+    let stockValue = calculateStockValue()  //Called the method to a variable stockValue
     console.log(inventory);
-    console.log("Total value of stock:", stockValue);
+    console.log("Total value of stock: $", stockValue);
